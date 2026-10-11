@@ -1,0 +1,25 @@
+# Secrets — never commit your real API key
+config.json
+.env
+
+# Run artifacts
+gepa_optimised_rag.json
+evaluation_judge_results.csv
+goldset_baseline_results.csv
+goldset_before_after.csv
+final_recommendation.txt
+*.html
+chroma/
+chroma_db/
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+myenv/
+
+# OS
+.DS_Store
+Thumbs.db
